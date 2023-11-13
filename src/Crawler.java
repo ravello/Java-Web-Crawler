@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class Crawler {
 
     public static void main (String[] args) {
-        String url = "https://en.wikipedia.org/";  // input any url
+        String url = "https://google.com/";  // input any url
         crawl(1, url, new ArrayList<String>());  // run crawl function
     }
 
